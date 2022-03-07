@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/oshanedesign)
+- GitHub: [@oshanedesign](https://github.com/oshanedesign)
 
 👤 **Author2**
 
