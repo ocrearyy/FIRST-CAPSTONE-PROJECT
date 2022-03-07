@@ -6,7 +6,7 @@ In this Capstone Project I built a Online Website for a conference.
 
 - HTML5, CSS3, JavaScript
 - Bootstrap,
-- Git, GitHub, VsCode, YouTube, Google, Behance, Zoom, Slack...
+- Git, GitHub, VsCode, YouTube, Google, Behance, Zoom...
 
 ## Live Demo (Responsive Web Design for Mobile and Desktop)
 
