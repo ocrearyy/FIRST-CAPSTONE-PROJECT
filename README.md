@@ -8,7 +8,7 @@ In this Capstone Project I built a Online Website for a conference.
 - Bootstrap,
 - Git, GitHub, VsCode, YouTube, Google, Behance, Zoom, Slack...
 
-## Live Demo (if available)
+## Live Demo (Responsive Web Design for Mobile and Desktop)
 
 [Live Demo Link](https://oshanedesign.github.io/FIRST-CAPSTONE-PROJECT/)
 
