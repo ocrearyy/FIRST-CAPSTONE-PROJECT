@@ -1,7 +1,11 @@
-/* design guidelines 
-Header Text: cocogoose;
-body text: lato;
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
 
-COlor: #272a31;
-color: #ec5242;
-color: d3d3d3; */  
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'COCOGOOSE', sans-serif;
+                                                
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
