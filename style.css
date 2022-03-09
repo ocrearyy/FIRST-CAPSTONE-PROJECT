@@ -119,6 +119,25 @@ body {
   color: #ec5242;
 }
 
+/* .......................................Desktop Version of index html starts here.............................................. */
+
+@media only screen and (min-width: 769px) {
+
+  .mobile-menu {
+    display: none;
+  }
+  
+
+
+
+
+
+  
+
+}
+
+/* .......................................Desktop Version of index html Ends here.............................................. */
+
 /* .......................................Index Home Page CSS Styles Ends here................................................. */
 
 /* ........................................About Page CSS Styles Starts here.................................................. */
