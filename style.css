@@ -5,8 +5,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'COCOGOOSE', sans-serif;                                           
+h6, {
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 body {
@@ -31,8 +31,8 @@ body {
 }
 
 .join-btn {
-    background-color: #ec5242;
-    color: #fff;
+  background-color: #ec5242;
+  color: #fff;
 }
 
 .main-invite {
@@ -73,11 +73,11 @@ body {
 }
 
 .line {
-  color:#ec5242
+  color: #ec5242;
 }
 
 .program-title {
-  color:#ec5242;
+  color: #ec5242;
 }
 
 .program-description {
@@ -107,16 +107,18 @@ body {
 .speaker-profession {
   color: #ec5242;
   font-style: italic;
-  margin-bottom: 0rem !important;
+  margin-bottom: 0.1rem !important;
 }
 
 .speaker-experience {
   margin-top: 0.3rem !important;
 }
+
 .down-arrow {
   margin-left: 10px;
   color: #ec5242;
 }
+
 /* .......................................Index Home Page CSS Styles Ends here................................................. */
 
 /* ........................................About Page CSS Styles Starts here.................................................. */
@@ -177,7 +179,7 @@ body {
 .event-2011 {
   width: 100%;
   height: auto;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .copy {
@@ -185,17 +187,16 @@ body {
   height: auto;
   padding-top: 10px;
   padding-left: 25px;
-  
 }
 
 .footer-copyright-about {
   line-height: 1em;
-  font-size: 20px; 
+  font-size: 20px;
   font-weight: bold;
 }
 
-.rights-about{
+.rights-about {
   line-height: 1.5em;
 }
-/* ABout Page CSS Styles Ends here */
 
+/* ABout Page CSS Styles Ends here */
