@@ -119,20 +119,81 @@ body {
   color: #ec5242;
 }
 
+.desktop-header-main-container {
+  display: none;
+}
+
 /* .......................................Desktop Version of index html starts here.............................................. */
 
 @media only screen and (min-width: 769px) {
-
   .mobile-menu {
     display: none;
   }
+
+  .desktop-logo-parent {
+    /* margin-left: 20px; */
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .desktop-logo {
+
+  }
+  .desktop-header-main-container {
+    display: contents;
+  }
+  .desktop-navbar-container {
+    /* margin-right: 80px; */
+  }
+
+  .desktop-navbar-ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-navbar-list {
+    list-style: none;
+    color: #272a32;
+  }
+
+  .desktop-navbar-list a {
+    color: #272a32;
+  }
+
+  .desktop-navabar-a:hover {
+    cursor: pointer;
+    color: #ec5242;
+    transition: color 2s;
+  }
+
+  .desktop-navabar-a:focus {
+    color: #ec5242;
+    cursor: pointer;
+  }
+
+  .message {
+    margin-right: 300px;
+  }
+
+  .desktop-location-date {
+    font-weight: bolder;
+    font-size: 200%;
+  }
+
+  .desktop-location-venue {
+    font-size: 100%;
+  }
+
+  .programs {
+    border: 2px solid red;
+  }
+
   
 
-
-
-
-
   
+
 
 }
 
