@@ -32,24 +32,27 @@
   <header class="header">
     <div class="container-fluid bg-white">
      <div class="row my-4">
-        <div class="col-5">
-          <nav class="mobile-menu-parent"><img class="mobile-menu" src="images/mobile_menu.png" alt="mobile-menu"></nav>
+        <div class="col-5 mobile-nav"> 
+          <div id="navToggle" class="mobile-menu-parent"><img class="mobile-menu navIcon" src="images/mobile_menu.png" alt="mobile-menu"></div>
+          <div class="mobile-menu-parent"><i class="fa-solid fa-xmark navIcon hidden"></i></div>
         </div>
         <div class="col-7">
-          <a href="index.html" class="logo-parent"><img class="logo" src="images/logo.png" alt="CC Global Summit 2015 logo"> </a>
+          <a href="#" class="logo-parent"><img class="logo" src="images/logo.png" alt="CC Global Summit 2015 logo"> </a>
         </div>
+
+
         <div class="row desktop-header-main-container">
           <div class="col-5 pl-5">
-            <a href="index.html" class="desktop-logo-parent"><img class="desktop-logo" src="images/logo.png" alt="CC Global Summit 2015 logo"> </a>
+            <a href="#" class="desktop-logo-parent"><img class="desktop-logo" src="images/logo.png" alt="CC Global Summit 2015 logo"> </a>
           </div>
-          <div class="col-7">
+          <div class="col-7 pr-5">
             <nav class="desktop-navbar-container">
               <ul class="desktop-navbar-ul">
                 <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="about.html">About</a></li>
-                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="#">Program</a></li>
-                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="#">Join</a></li>
-                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="#">Sponsor</a></li>
-                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="#">News</a></li>
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="index.html">Program</a></li>
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="index.html">Join</a></li>
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="index.html">Sponsor</a></li>
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="index.html">News</a></li>
                 <li class="desktop-navbar-list"><button type="button" class="btn btn-outline-danger">CC Campaign</button></li>
               </ul>
             </nav>
@@ -57,8 +60,20 @@
         </div>
      </div>
     </div>
+    <div class="row">
+      <div class="col">
+      <nav id="menu-popup" class="mobile-menu-popup"> 
+      <ul class="mobile-navbar-ul">
+        <li class="mobile-navbar-list"><a class="desktop-navabar-a" href="about.html">About</a></li>
+        <li class="mobile-navbar-list"><a class="desktop-navabar-a" href="index.html">Program</a></li>
+        <li class="mobile-navbar-list"><a class="desktop-navabar-a" href="index.html">Join</a></li>
+        <li class="mobile-navbar-list"><a class="desktop-navabar-a" href="index.html">Sponsor</a></li>
+        <li class="mobile-navbar-list"><a class="desktop-navabar-a" href="index.html">News</a></li>
+      </ul> 
+    </nav>
+  </div>
+    </div>
   </header>
-
 <!-- Main about information Section Start-->
 <section class="main-invite"> 
   <div class="container-fluid">
