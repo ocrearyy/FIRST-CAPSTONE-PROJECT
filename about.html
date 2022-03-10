@@ -31,14 +31,31 @@
 <body>
   <header class="header">
     <div class="container-fluid bg-white">
-    <div class="row my-4">
+     <div class="row my-4">
         <div class="col-5">
           <nav class="mobile-menu-parent"><img class="mobile-menu" src="images/mobile_menu.png" alt="mobile-menu"></nav>
         </div>
         <div class="col-7">
           <a href="#" class="logo-parent"><img class="logo" src="images/logo.png" alt="CC Global Summit 2015 logo"> </a>
         </div>
-    </div>
+        <div class="row desktop-header-main-container">
+          <div class="col-5 pl-5">
+            <a href="#" class="desktop-logo-parent"><img class="desktop-logo" src="images/logo.png" alt="CC Global Summit 2015 logo"> </a>
+          </div>
+          <div class="col-7">
+            <nav class="desktop-navbar-container">
+              <ul class="desktop-navbar-ul">
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="about.html">About</a></li>
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="#">Program</a></li>
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="#">Join</a></li>
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="#">Sponsor</a></li>
+                <li class="desktop-navbar-list"><a class="desktop-navabar-a" href="#">News</a></li>
+                <button type="button" class="btn btn-outline-danger">CC Campaign</button>
+              </ul>
+            </nav>
+          </div>
+        </div>
+     </div>
     </div>
   </header>
 
@@ -49,10 +66,16 @@
     <img class="title-about" src="images/about_title.png" alt="title">
     <!-- <h1>CREATIVE COMMONS <br> GLOBAL SUMMIT <br> 2015</h1> -->
     <div class="message-about"> 
-      <P>The Global Summit brings together the community of experts, academics and activists who comprise the Creative Commons Affiliate network in a different country every two years. This year we hope to expand out invitation list including organizations and individuals. </P>
+      <P class="mobile-message-about-text">The Global Summit brings together the community of experts, academics and activists who comprise the Creative Commons Affiliate network in a different country every two years. This year we hope to expand out invitation list including organizations and individuals. </P>
+      <P class="desktop-message-about-text">The Global Summit brings together the community of experts, academics and activists who comprise the Creative Commons Affiliate network in a different country every two years. This year we hope to expand out invitation list including organizations and individuals. this year's CC Summit
+        awaits the participation of various organizations and individual participants who want to participate in activities to spread the value of sharing, free culture, and open knowledge with CC.
+        Free software supporters, Wikipedia activists, open knowledge foundation activists, art galleries, libraries, museums, archives, governments,
+        foundations, lawyers, social activists, etc. various people active in the field of open content and open knowledge gather in one place to
+        share richer and more dynamic We hope that it will be an opportunity to share our thoughts on creating an ecosystem.</P>
     </div>
     <div class="contact-about">
       <p class="contact-paragraph-about">Please contact us per Email for any further questions <br> about CC Global Summit 2015! <br> <a class="contact-email-about" href="mailto:ccsummit2015@cckorea.org"><u>ccsummit2015@cckorea.org</u></a></p>
+      <p class="desktop-contact-paragraph-about">Please contact us per Email for any further questions about CC Global Summit 2015! <br> <a class="contact-email-about" href="mailto:ccsummit2015@cckorea.org"><u>ccsummit2015@cckorea.org</u></a><i class="fa-solid fa-angle-right"></i></p>
     </div>
   </div>    
 </section>
@@ -72,7 +95,9 @@
     </div>
     <div class="row text-center mx-5 px-5">
       <div class="col">
-        <p>The logo of CC Global Summit 2015 was decided through the logo competition from June 8 to July 7.</p>
+        <p class="mobile-about-logo-paragraph">The logo of CC Global Summit 2015 was decided through the logo competition from June 8 to July 7.</p>
+        <p class="desktop-about-logo-paragraph">The logo of CC Global Summit 2015 was decided through the logo competition from June 8 to July 7. After consultation with the winning designer, the logo of CC Global Summit 2015, which was optimized for use on the website and promotional materials, is as follows.</p>
+        
       </div>
     </div>
     <div class="row align-items-center mx-5 mb-5 mt-5 ">
@@ -110,6 +135,14 @@
         <img class="event-2011" src="images/about_2011_hover.png" alt="2013-event">
       </div>
     </div>
+    <div class="row desktop-event-pics">
+      <div class="col-6 event-1">
+        <img class="desktop-event-2013" src="images/about_2013_hover.png" alt="2013-event">
+      </div>
+      <div class="col-6 event-2">
+        <img class="desktop-event-2011" src="images/about_2011_hover.png" alt="2013-event">
+      </div>
+    </div>
   </div>
 </section>
 <!-- Past Speakers Section Ends  -->
@@ -119,7 +152,7 @@
 <section class="partner-about">
 <div class="container-fluid px-5 pb-5">
   <div class="row">
-    <div class="col text-white text-center pt-5">Main Program</div>
+    <div class="col text-white text-center pt-5">Partner</div>
     </div>
     <div class="row">
     <div class="col text-center line pb-5"><i class="fa-solid fa-ellipsis"></i><i class="fa-solid fa-ellipsis"></i><i class="fa-solid fa-ellipsis"></i></div>
@@ -147,7 +180,7 @@
 </section>
 <!-- Partner Section Ends  -->
 
-<!-- Footer Section Starts  -->
+<!-- Mobile Footer Section Starts  -->
 <footer class="footer">
 <div class="container fluid">
   <div class="row mt-5 mb-5">
@@ -163,7 +196,23 @@
   </div>
 </div>
 </footer>
-<!-- Footer Section Ends -->
+<!-- Mobile Footer Section Ends -->
+
+<!-- Desktop Footer Section Starts -->
+<footer class="desktop-footer">
+  <div class="container-fluid pt-5 pb-3 desktop-footer-background">
+    <div class="row text-white mt-5 mb-5">
+      <div class="col-4 text-center">
+      <p class="footer-copyright-about"><i class="fa-regular fa-copyright"></i>creative<br> commons korea</p>
+      </div>
+      <div class="col-8">
+        <p class="rights-about">2015 Creative Commons Korea some Rights Reserved</p>
+        <p> All content on the website, unless otherwise specified, is available under a Creative Commons Attribution 2.0 Korea license.</p>
+      </div>
+    </div>
+  </div>
+  </footer>
+<!-- Desktop Footer Section Ends -->
 
 <!-- Bootstrap js API's -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

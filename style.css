@@ -345,4 +345,119 @@ body {
   line-height: 1.5em;
 }
 
-/* ABout Page CSS Styles Ends here */
+.mobile-message-about-text {
+  display: contents;
+}
+
+.desktop-message-about-text {
+  display: none;
+}
+
+.desktop-contact-paragraph-about {
+  display: none;
+}
+
+.desktop-about-logo-paragraph {
+  display: none;
+}
+
+.desktop-event-pics {
+  display: none;
+}
+
+.desktop-footer {
+  display: none;
+}
+/*.........................................ABout Page CSS Styles Ends here..........................................................*/
+
+/* .......................................Desktop Version of ABout Page html Starts here.............................................. */
+
+@media only screen and (min-width: 769px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .hello-text-about {
+    display: none;
+  }
+
+  .title-about {
+    margin-top: 80px;
+  }
+
+  .mobile-message-about-text {
+    display: none;
+  }
+
+  .desktop-message-about-text {
+    display: contents;
+    text-align: center;
+    line-height: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .contact-paragraph-about {
+    display: none;
+  }
+
+  .desktop-contact-paragraph-about {
+    display: contents;
+  }
+
+  .contact-email-about {
+    padding-right: 10px;
+  }
+
+  .mobile-about-logo-paragraph {
+    display: none;
+  }
+
+  .desktop-about-logo-paragraph {
+    display: contents;
+  }
+
+  .event-2013,
+  .event-2011 {
+    display: none;
+  }
+
+  .desktop-event-pics {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .event-1,
+  .event-2 {
+    flex-basis: 50%;
+    text-align: center;
+  }
+
+  .desktop-event-2013,
+  .desktop-event-2011 {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .desktop-footer {
+    display: contents;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .desktop-footer-background {
+    background-color: #3c3f46;
+
+  }
+}
+
+
+
+/* .......................................Desktop Version of ABout Page html Ends here.............................................. */
