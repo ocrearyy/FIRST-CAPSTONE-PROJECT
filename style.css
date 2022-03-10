@@ -261,6 +261,19 @@ body {
   .footer {
     display: contents;
   }
+
+  .slides {
+    width: 70%;
+    height: auto;
+  }
+
+  .transparent {
+    opacity: 0.5;
+  }
+
+  .slide-arrow {
+    color: #ec5242;
+  }
 }
 
 /* .......................................Desktop Version of index html Ends here.............................................. */
