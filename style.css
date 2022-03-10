@@ -154,12 +154,10 @@ body {
     display: none;
   }
 
-  .desktop-logo {
-
-  }
   .desktop-header-main-container {
     display: contents;
   }
+
   .desktop-navbar-container {
     /* margin-right: 80px; */
   }
@@ -221,6 +219,7 @@ body {
     border: 2px solid red;
     flex-basis: 16%;
     text-align: center;
+
     /* flex-basis is the same as width */
   }
 
@@ -228,6 +227,7 @@ body {
     /* padding-top: 40px;
     padding-bottom: 40px; */
   }
+
   .desktop-view-programs {
     color: #fff;
   }
@@ -235,7 +235,7 @@ body {
   .desktop-main-programs-container {
     display: contents;
   }
-  
+
   .mobile-speakers {
     display: none;
   }
@@ -261,9 +261,6 @@ body {
   .footer {
     display: contents;
   }
-  
-  
-
 }
 
 /* .......................................Desktop Version of index html Ends here.............................................. */
