@@ -368,7 +368,8 @@ body {
 .desktop-footer {
   display: none;
 }
-/*.........................................ABout Page CSS Styles Ends here..........................................................*/
+
+/* .........................................ABout Page CSS Styles Ends here.......................................................... */
 
 /* .......................................Desktop Version of ABout Page html Starts here.............................................. */
 
@@ -454,10 +455,7 @@ body {
 
   .desktop-footer-background {
     background-color: #3c3f46;
-
   }
 }
-
-
 
 /* .......................................Desktop Version of ABout Page html Ends here.............................................. */
