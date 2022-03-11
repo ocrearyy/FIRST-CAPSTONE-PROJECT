@@ -1,4 +1,4 @@
-// mobile popup starts 
+// mobile popup starts
 
 const navToggle = document.querySelector('#navToggle');
 const nav = document.querySelector('#menu-popup');
@@ -6,25 +6,22 @@ const navIcon = document.querySelectorAll('.navIcon');
 
 navToggle.addEventListener('click', () => {
   nav.classList.toggle('open');
-    navIcon.forEach(icon => {
+  navIcon.forEach(icon => {
     icon.classList.toggle('hidden');
   });
 });
 
-
-
-// Mobile popup ends 
+// Mobile popup ends
 
 // features speaker popup starts
 const speakers = [
   {
-    Images: ['images/speaker_01.png', 'images/speaker_02.png', 'images/speaker_03.png', 'images/speaker_04.png', 'images/speaker_05.png', 'images/speaker_06.png',],
-    name: ['Yohai Benkler', 'Jeon Gil-nam', 'Noh So-youn', 'Julia Leda', 'Layla Tretikov', 'Ryan Merkley',],
-    role: ['Berkham Professor of Entrepreneurial Legal Studies at Harvard Law School', 'Director of Art Centre Nabi and a board member of CC Korea', 'Art Center Nabi Director, CC Korea Director', 'Head of the Young Pirates of Europe', 'Secretary General of the Wikimedia Foundation', 'Creative Commons CEO, Former Mozilla Foundation COO',],
-    about: ['Benkler studies commons based peer production and published his seminal book The Wealth of Networks in 2006', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.',],
+    Images: ['images/speaker_01.png', 'images/speaker_02.png', 'images/speaker_03.png', 'images/speaker_04.png', 'images/speaker_05.png', 'images/speaker_06.png'],
+    name: ['Yohai Benkler', 'Jeon Gil-nam', 'Noh So-youn', 'Julia Leda', 'Layla Tretikov', 'Ryan Merkley'],
+    role: ['Berkham Professor of Entrepreneurial Legal Studies at Harvard Law School', 'Director of Art Centre Nabi and a board member of CC Korea', 'Art Center Nabi Director, CC Korea Director', 'Head of the Young Pirates of Europe', 'Secretary General of the Wikimedia Foundation', 'Creative Commons CEO, Former Mozilla Foundation COO'],
+    about: ['Benkler studies commons based peer production and published his seminal book The Wealth of Networks in 2006', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.', 'As the author of Digital Art  of Our Time he opened Art Center Nabi Koreas first digital art institution in 2000 and is currently serving.'],
   },
 ];
-
 
 const jsContainer = document.querySelector('.speakers-container');
 for (let i = 0; i < 6; i += 1) {
