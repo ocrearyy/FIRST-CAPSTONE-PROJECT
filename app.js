@@ -6,10 +6,12 @@ const navIcon = document.querySelectorAll('.navIcon');
 
 navToggle.addEventListener('click', () => {
   nav.classList.toggle('open');
-  navIcon.forEach(icon => {
+    navIcon.forEach(icon => {
     icon.classList.toggle('hidden');
   });
 });
+
+
 
 // Mobile popup ends 
 
