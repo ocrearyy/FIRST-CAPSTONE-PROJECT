@@ -132,7 +132,7 @@ body {
 }
 
 .desktop-partner-section {
-  display: none;
+  display: contents;
 }
 
 .footer {
@@ -182,6 +182,11 @@ body {
 
 .speakers-container {
   display: none;
+}
+
+.partner-logos {
+  width: 100%;
+  height: auto;
 }
 
 /* .......................................Desktop Version of index html starts here.............................................. */
@@ -308,8 +313,7 @@ body {
   }
 
   .slides {
-    width: 70%;
-    height: auto;
+    margin: auto;
   }
 
   .transparent {
@@ -343,6 +347,10 @@ body {
   .speakers-container {
     display: contents;
   }
+
+  .titlepic {
+    text-align: center;
+  }
 }
 
 /* .......................................Desktop Version of index html Ends here.............................................. */
@@ -356,6 +364,14 @@ body {
   font-size: 255%;
   padding-top: 1em;
   text-align: center;
+}
+
+.hello-text-about-2 {
+  color: #ec5242;
+  font-size: 255%;
+  padding-top: 1em;
+  text-align: center;
+  font-weight: bold;
 }
 
 .title-about {
@@ -399,8 +415,13 @@ body {
 }
 
 .logo-about {
-  width: 100%;
+  width: 50%;
   height: auto;
+}
+
+.logo-about-parent-1 {
+  display: flex;
+  justify-content: center;
 }
 
 .event-2013,
@@ -524,7 +545,7 @@ body {
   }
 
   .footer {
-    display: none;
+    display: contents;
   }
 
   .desktop-footer {
