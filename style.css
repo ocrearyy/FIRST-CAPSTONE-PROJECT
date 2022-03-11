@@ -175,6 +175,15 @@ body {
   display: none;
 }
 
+.mobile-speakers- {
+  width: 100%;
+  height: auto;
+}
+
+.speakers-container {
+  display: none;
+}
+
 /* .......................................Desktop Version of index html starts here.............................................. */
 
 @media only screen and (min-width: 769px) {
@@ -329,6 +338,10 @@ body {
 
   #menu-popup {
     display: none;
+  }
+
+  .speakers-container {
+    display: contents;
   }
 }
 
