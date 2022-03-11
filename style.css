@@ -1,0 +1,543 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* ........................................Index Home Page CSS Styles Starts here............................................ */
+
+.mobile-menu-parent {
+  left: 20px;
+}
+
+.mobile-menu {
+  width: 20px;
+  padding-top: 15px;
+}
+
+.hello-text {
+  color: #ec5242;
+  font-size: 255%;
+  padding-top: 1em;
+}
+
+.join-btn {
+  background-color: #ec5242;
+  color: #fff;
+}
+
+.main-invite {
+  background-image: url(images/main_big.png);
+  background-repeat: repeat-x;
+  background-size: 162%;
+  height: auto;
+  width: 100%;
+  background-color: #f6f6f7;
+}
+
+.title {
+  padding-top: 40px;
+  width: 90%;
+  padding-left: 20px;
+}
+
+.message {
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(247, 247, 248);
+  font-size: 100%;
+}
+
+.location {
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 60px;
+  font-size: 100%;
+}
+
+.main-program {
+  background-image: url(images/pattern_bg.png);
+  background-color: #272a32;
+}
+
+.line {
+  color: #ec5242;
+}
+
+.program-title {
+  color: #ec5242;
+}
+
+.program-description {
+  color: #fff;
+}
+
+.partner-about {
+  background-color: #414146;
+}
+
+.programs {
+  background-color: #3c3f46;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.featured-text {
+  font-size: 30px;
+}
+
+.speaker-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0.5rem !important;
+}
+
+.speaker-profession {
+  color: #ec5242;
+  font-style: italic;
+  margin-bottom: 0.1rem !important;
+}
+
+.speaker-experience {
+  margin-top: 0.3rem !important;
+}
+
+.down-arrow {
+  margin-left: 10px;
+  color: #ec5242;
+}
+
+.desktop-header-main-container {
+  display: none;
+}
+
+.desktop-main-programs-container {
+  display: none;
+}
+
+.desktop-feature-speakers {
+  display: none;
+}
+
+.desktop-partner-section {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+
+#carouselExampleIndicators {
+  display: none;
+}
+
+.mobile-navbar-ul {
+  list-style: none;
+  width: 100%;
+}
+
+.mobile-navbar-list {
+  display: block;
+  text-align: center;
+  padding: 1.5rem 0.1rem;
+}
+
+.mobile-navbar-list a {
+  color: #ec5242;
+  font-size: 1.5rem;
+}
+
+.mobile-menu-popup {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: 250ms height ease-in-out;
+}
+
+.open {
+  height: 100vh;
+  background-color: #3c3f46;
+}
+
+.hidden {
+  display: none;
+}
+
+.mobile-speakers- {
+  width: 100%;
+  height: auto;
+}
+
+.speakers-container {
+  display: none;
+}
+
+/* .......................................Desktop Version of index html starts here.............................................. */
+
+@media only screen and (min-width: 769px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .desktop-logo-parent {
+    /* margin-left: 20px; */
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .desktop-header-main-container {
+    display: contents;
+  }
+
+  .desktop-navbar-container {
+    /* margin-right: 80px; */
+  }
+
+  .desktop-navbar-ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-navbar-list {
+    list-style: none;
+    color: #272a32;
+  }
+
+  .desktop-navbar-list a {
+    color: #272a32;
+  }
+
+  .desktop-navabar-a:hover {
+    cursor: pointer;
+    color: #ec5242;
+    transition: color 2s;
+  }
+
+  .desktop-navabar-a:focus {
+    color: #ec5242;
+    cursor: pointer;
+  }
+
+  .message {
+    margin-right: 300px;
+  }
+
+  .desktop-location-date {
+    font-weight: bolder;
+    font-size: 200%;
+  }
+
+  .desktop-location-venue {
+    font-size: 100%;
+  }
+
+  .mobile-programs-container {
+    display: none;
+  }
+
+  .desktop-programs-options {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5,
+  .box-6 {
+    border: 2px solid red;
+    flex-basis: 16%;
+    text-align: center;
+
+    /* flex-basis is the same as width */
+  }
+
+  .desktop-view-programs-text {
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+  }
+
+  .desktop-view-programs {
+    color: #fff;
+  }
+
+  .desktop-main-programs-container {
+    display: contents;
+  }
+
+  .mobile-speakers {
+    display: none;
+  }
+
+  .desktop-speaker-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desktop-feature-speakers {
+    display: contents;
+  }
+
+  .desktop-partner-section {
+    display: contents;
+    background-color: #414146;
+  }
+
+  .partner-section {
+    background-color: #414146;
+  }
+
+  .footer {
+    display: contents;
+  }
+
+  .slides {
+    width: 70%;
+    height: auto;
+  }
+
+  .transparent {
+    opacity: 0.5;
+  }
+
+  .slide-arrow {
+    color: #ec5242;
+  }
+
+  #carouselExampleIndicators {
+    display: contents;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .mobile-navbar-ul {
+    display: none;
+  }
+
+  .navIcon {
+    display: none;
+  }
+
+  #menu-popup {
+    display: none;
+  }
+
+  .speakers-container {
+    display: contents;
+  }
+}
+
+/* .......................................Desktop Version of index html Ends here.............................................. */
+
+/* .......................................Index Home Page CSS Styles Ends here................................................. */
+
+/* ........................................About Page CSS Styles Starts here.................................................. */
+
+.hello-text-about {
+  color: #ec5242;
+  font-size: 255%;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.title-about {
+  width: 90%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.message-about {
+  margin-top: 40px;
+  border: 2px solid rgb(247, 247, 248);
+  background-color: #fff;
+  font-size: 100%;
+  text-align: center;
+  padding: 40px;
+}
+
+.contact-about {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.contact-email-about {
+  color: #272a32;
+  text-decoration: solid;
+}
+
+.secondary-information-paragraph-about {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.past-speakers-title-about {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.logo-about {
+  width: 100%;
+  height: auto;
+}
+
+.event-2013,
+.event-2011 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.copy {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.footer-copyright-about {
+  line-height: 1em;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rights-about {
+  line-height: 1.5em;
+}
+
+.mobile-message-about-text {
+  display: contents;
+}
+
+.desktop-message-about-text {
+  display: none;
+}
+
+.desktop-contact-paragraph-about {
+  display: none;
+}
+
+.desktop-about-logo-paragraph {
+  display: none;
+}
+
+.desktop-event-pics {
+  display: none;
+}
+
+.desktop-footer {
+  display: none;
+}
+
+/* .........................................ABout Page CSS Styles Ends here.......................................................... */
+
+/* .......................................Desktop Version of ABout Page html Starts here.............................................. */
+
+@media only screen and (min-width: 769px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .hello-text-about {
+    display: none;
+  }
+
+  .title-about {
+    margin-top: 80px;
+  }
+
+  .mobile-message-about-text {
+    display: none;
+  }
+
+  .desktop-message-about-text {
+    display: contents;
+    text-align: center;
+    line-height: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .contact-paragraph-about {
+    display: none;
+  }
+
+  .desktop-contact-paragraph-about {
+    display: contents;
+  }
+
+  .contact-email-about {
+    padding-right: 10px;
+  }
+
+  .mobile-about-logo-paragraph {
+    display: none;
+  }
+
+  .desktop-about-logo-paragraph {
+    display: contents;
+  }
+
+  .event-2013,
+  .event-2011 {
+    display: none;
+  }
+
+  .desktop-event-pics {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .event-1,
+  .event-2 {
+    flex-basis: 50%;
+    text-align: center;
+  }
+
+  .desktop-event-2013,
+  .desktop-event-2011 {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .desktop-footer {
+    display: contents;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .desktop-footer-background {
+    background-color: #3c3f46;
+  }
+}
+
+/* .......................................Desktop Version of ABout Page html Ends here.............................................. */

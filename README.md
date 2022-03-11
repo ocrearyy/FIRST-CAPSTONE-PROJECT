@@ -22,15 +22,20 @@ To get a local copy up and running follow these simple example steps.
 2. Cd FIRST-CAPSTONE-PROJECT
 
 
-## Authors
+## Authors, Designers & Credits 
 
 👤 **Author1**
 
 - GitHub: [@oshanedesign](https://github.com/oshanedesign)
 
-👤 **Author2**
+👤 **Designer**
 
-- GitHub: [@githubhandle](pending)
+- Designer: Cindy Shin 
+- Behance: [@CindyShin](behance.net/gallery/29845175/CC-Global-Summit-2015) 
+
+👤 **Credits**
+
+- Company: Creative Commons Korea License
 
 ## 🤝 Contributing
 
